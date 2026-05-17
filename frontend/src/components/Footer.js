@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { Linkedin, Twitter, Youtube, Instagram, ArrowUp } from 'lucide-react';
 
 export default function Footer() {
@@ -27,7 +26,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[Linkedin, Twitter, Youtube, Instagram].map((Icon, i) => (
-                <a key={i} href="#" className="w-8 h-8 border border-steel-700/50 hover:border-amber-500 flex items-center justify-center text-steel-500 hover:text-amber-500 transition-all">
+                <a key={i} href="/" className="w-8 h-8 border border-steel-700/50 hover:border-amber-500 flex items-center justify-center text-steel-500 hover:text-amber-500 transition-all">
                   <Icon size={14} />
                 </a>
               ))}
@@ -63,7 +62,7 @@ export default function Footer() {
                   {p === 'Admin Portal' ? (
                     <a href="/admin" className="text-steel-400 hover:text-amber-400 text-sm transition-colors font-body">{p}</a>
                   ) : (
-                    <a href="#" className="text-steel-400 hover:text-amber-400 text-sm transition-colors font-body">{p}</a>
+                    <a href="/" className="text-steel-400 hover:text-amber-400 text-sm transition-colors font-body">{p}</a>
                   )}
                 </li>
               ))}
