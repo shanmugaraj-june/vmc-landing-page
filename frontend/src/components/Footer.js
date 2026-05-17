@@ -76,8 +76,8 @@ export default function Footer() {
             © {new Date().getFullYear()} AXIOM CNC Systems Pvt. Ltd. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-steel-600 hover:text-steel-400 font-mono text-xs tracking-wider transition-colors">Privacy Policy</a>
-            <a href="#" className="text-steel-600 hover:text-steel-400 font-mono text-xs tracking-wider transition-colors">Terms of Use</a>
+            <a href="/" className="text-steel-600 hover:text-steel-400 font-mono text-xs tracking-wider transition-colors">Privacy Policy</a>
+            <a href="/" className="text-steel-600 hover:text-steel-400 font-mono text-xs tracking-wider transition-colors">Terms of Use</a>
             <button
               onClick={scrollToTop}
               className="w-8 h-8 border border-steel-700/50 hover:border-amber-500 flex items-center justify-center text-steel-500 hover:text-amber-500 transition-all"

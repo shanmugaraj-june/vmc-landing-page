@@ -6,7 +6,7 @@ import axios from 'axios';
 import {
   LogOut, Trash2, CheckCircle, Circle, Search,
   RefreshCw, Mail, Phone, Building, MessageSquare,
-  Users, Clock, CheckSquare, TrendingUp, ChevronDown, X
+  Users, Clock, CheckSquare, TrendingUp, X
 } from 'lucide-react';
 
 const API_URL = process.env.REACT_APP_API_URL || '';
